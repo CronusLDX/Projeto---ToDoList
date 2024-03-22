@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+ body{
+    background-color: rgb(63, 231, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana;
+
+}
+ 
+.container{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    border-radius: 15px;
+    padding: 10PX;
+    transition: 1.5s;
+}
+h1{
+    margin-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+input::placeholder{
+    padding-left: 30px;
+}
+#InputTask {
+width: 230px;
+ margin-left: 10px;
+ height: 30px;
+ border: none;
+}
+ #Button{
+    margin-top: 10px;
+    width: 254px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(23, 153, 92) ;
+    border: none;
+    border-radius:10px ;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+ #Button:hover{
+    opacity: 1.0;
+}
+
+ul{
+     
+        list-style-type: none;
+    
+}
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.DelBtn{
+    background-color: rgba(255, 0, 0, 0.815);
+    color: white;
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 50% ;
+    cursor: pointer;
+}
